@@ -7,6 +7,7 @@ export default function Navbar() {
 
   const navigation = [
     { name: 'Home', href: '/', current: true },
+    { name: 'Flex', href: '/flex', current: false },
     { name: 'Buttons', href: '/buttons', current: false },
   ]
   
