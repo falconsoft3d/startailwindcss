@@ -1,9 +1,13 @@
 import React from 'react'
+import Layout from '../components/Layout';
+import Link from 'next/link';
 
 export default function buttons() {
   return (
-    <div>
-        <h1>Buttons</h1>
-    </div>
+    <>
+      <Layout>
+            <h1>P.buttons</h1>
+      </Layout>
+    </>
   );
 }
